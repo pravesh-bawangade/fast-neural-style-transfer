@@ -12,7 +12,7 @@ import cv2
 
 def main(checkpoint_models):
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture("video/input.mp4")
 
     os.makedirs("images/outputs", exist_ok=True)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

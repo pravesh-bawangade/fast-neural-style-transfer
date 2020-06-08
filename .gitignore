@@ -1,3 +1,4 @@
 *.pth
 venv
 .ipynb_checkpoints
+video
